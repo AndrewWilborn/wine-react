@@ -31,7 +31,7 @@ export default function Drink(){
                 <div className="drink-list">
                     {
                         !drinkList
-                        ? <p>No List</p>
+                        ? <p>Click a button to load drinks.</p>
                         : drinkList.map( (drink) => {
                             return (
                                 <div key = {drink.id} className="hover-effect">
