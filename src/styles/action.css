@@ -1,3 +1,15 @@
+/* .hover-effect{
+    transition: 1.2s;
+} */
+
+.hover-effect{
+    transform: scale(1);
+    filter: drop-shadow(0 10px 0.75rem rgba(0, 0, 0, 0));
+    transition: transform 1.1s, filter 0.9s;
+}
+
 .hover-effect:hover {
     transform: scale(1.2);
+    filter: drop-shadow(0 10px 0.75rem black);
+    transition: 0.5s
 }
