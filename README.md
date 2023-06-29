@@ -1,6 +1,6 @@
 # Wine App with React
 
-![screen shot](./public/images/readme.png)
+[![screen shot](./public/images/readme.png)](https://wine-app-react-ajw.web.app)
 
 Developed a React application to study useState, Fetch, and map functions.  Used sampleapis to provide the data.
 
