@@ -34,7 +34,7 @@ export default function Drink(){
                         ? <p>No List</p>
                         : drinkList.map( (drink) => {
                             return (
-                                <div key = {drink.id}>
+                                <div key = {drink.id} className="hover-effect">
                                     <img src={drink.image}></img>
                                     <h3>{drink.wine}</h3>
                                     <p>Location: {drink.location}</p>
